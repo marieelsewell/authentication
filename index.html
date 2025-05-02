@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>My Personal Library</h2>
+    <div id="color-picker-container">
+        <label>Select Color</label>
+        <input type="color" id="colorPicker">
+        <button id="save-color-button">Save Color</button>
+    </div>
+    <div class="navbar">
+        <button id="login-toggle-button">Login</button>
+        <button id="signup-toggle-button">Sign Up</button>
+        <button id="color-toggle-button">Set Background Color</button>
+        <button id="logout-button" style="display: none;">Logout</button>
+    </div>
+    <!-- Sign-up form -->
+    <div id="sign-up-form">
+        <h3>Sign Up Here</h3>
+        <h4>First Name:</h4>
+        <input id="input-first-name">
+        <h4>Last Name:</h4>
+        <input id="input-last-name">
+        <h4>Email:</h4>
+        <input id="input-email">
+        <h4>Password:</h4>
+        <input id="input-password">
+        <button id="save-user-button">Save User</button>
+    </div>
+    <!-- Login form -->
+    <div id="login-form">
+        <h3>Login Here</h3>
+        <h4>Email:</h4>
+        <input id="input-email-login">
+        <h4>Password:</h4>
+        <input id="input-password-login">
+        <button id="login-button">Login</button>
+    </div>
+    <!-- Add Book form -->
+    <div id="add-form" style="display: none;">
+        <h3>Add Form</h3>
+        <h4>Title:</h4>
+        <input id="input-title-name">
+        <h4>Author:</h4>
+        <input id="input-author-name">
+        <h4>Genre:</h4>
+        <input id="input-genre">
+        <h4>Have you read this book? (Input 1 (True) or 0 (False)):</h4>
+        <input id="input-boolean">
+        <h4>Rating:</h4>
+        <input id="input-rating">
+        <button id="save-book-button">Save</button>
+    </div>
+    <section id="section"></section>
+    <script src="app.js"></script>
+</body>
+</html>
